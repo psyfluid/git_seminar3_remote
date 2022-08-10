@@ -34,3 +34,8 @@
 
 ## Полезные ссылки
 Актуальная версия книги Pro Git на [английском](https://git-scm.com/book/en/v2) и [русском](https://git-scm.com/book/ru).
+
+---
+_"I’m very happy with git. It works remarkably well for the kernel and is still meeting all my expectations."
+— Linus Torvalds_
+---
