@@ -18,12 +18,19 @@
 * `git checkout <commit>` — перейти к какой-либо версии, можно указывать первые 4 символа хеш-кода;
 * `git diff` — показать отличия текущих файлов от последнего коммита.
 
+---
+![Working tree, staging area, and Git directory](https://git-scm.com/book/en/v2/images/areas.png)
+
 ## Статусы файлов
 * U — untracked
 * A — added
 * M — modified
 * D — deleted
 * R — renamed (отображается, когда в индекс добавлен файл и с новым, и со старым именем)
+
+---
+![The lifecycle of the status of your files](https://git-scm.com/book/en/v2/images/lifecycle.png)
+
 
 ## Полезные ссылки
 Актуальная версия книги Pro Git на [английском](https://git-scm.com/book/en/v2) и [русском](https://git-scm.com/book/ru).
