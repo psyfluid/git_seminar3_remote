@@ -44,3 +44,5 @@ _"I’m very happy with git. It works remarkably well for the kernel and is stil
 Строка в локальном репозитории.
 
 Строка в удаленном репозитории.
+
+Строка в побочной ветке.
