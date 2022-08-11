@@ -39,3 +39,6 @@
 _"I’m very happy with git. It works remarkably well for the kernel and is still meeting all my expectations."
 — Linus Torvalds_
 ---
+
+
+Строка в локальном репозитории.
