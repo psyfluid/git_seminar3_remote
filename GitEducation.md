@@ -32,6 +32,15 @@
 ![The lifecycle of the status of your files](https://git-scm.com/book/en/v2/images/lifecycle.png)
 
 
+## Ветвление в git
+
+* `git branch` — показать список веток;
+* `git branch <name>` — создать новую ветку, указав её имя;
+* `git checkout <name>` — переключиться на указанную ветку;
+* `git merge <name>` — слияние указанной ветки с текущей;
+* `git branch -d <name>` — удаление ветки (черновика) после слияния.
+
+
 ## Полезные ссылки
 Актуальная версия книги Pro Git на [английском](https://git-scm.com/book/en/v2) и [русском](https://git-scm.com/book/ru).
 
@@ -40,10 +49,3 @@ _"I’m very happy with git. It works remarkably well for the kernel and is stil
 — Linus Torvalds_
 ---
 
-## Ветвление в git
-
-* `git branch` — показать список веток;
-* `git branch <name>` — создать новую ветку, указав её имя;
-* `git checkout <name>` — переключиться на указанную ветку;
-* `git merge <name>` — слияние указанной ветки с текущей;
-* `git branch -d <name>` — удаление ветки (черновика) после слияния.
