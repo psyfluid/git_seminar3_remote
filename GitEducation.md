@@ -6,6 +6,7 @@
 * `git config --global user.name <name>` — задать глобальное имя пользователя (для всех репозиториев);
 * `git config --global user.email <email>` — задать e-mail пользователя (для всех репозиториев);
 * `git config --global init.defaultBranch main` — задать имя главной ветки по умолчанию для всех репозиториев.
+* `git config --show-origin --show-scope --list` — отобразить все глобальные и локальные настройки
 
 ## Базовые команды работы с репозиторием
 
@@ -72,6 +73,14 @@
 * `git restore <file>` — восстановить предыдущую версию файла;
 * `git reset <commit>` — откатиться до указанной версии;
 * `git revert <commit>` — создать новый коммит, отменяющий изменения указанной версии.
+* undo last commit, keep changes staged
+```
+git reset --soft HEAD~
+git commit -m "fixup commit message or include more changes"
+```
+* unstage changes (keep working tree): `git reset`
+* discard changes (dangerous): `git reset --hard HEAD~`
+* if already pushed and safe to rewrite remote: `git push --force-with-lease origin <branch>`
 
 
 ## Полезные ссылки
